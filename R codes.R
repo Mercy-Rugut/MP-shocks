@@ -1,8 +1,4 @@
 ###############################################################################
-# EC989 Data Analytics II: Advances in Economics & Finance
-# Empirical project - Identifying monetary policy shock 
-# Year 2024/2025
-###############################################################################
 
 ###############################################################################
 ###--------------------------- Milestones ----------------------------------### 
@@ -669,3 +665,4 @@ lines(0:nhor, irf.sentmp[["EBP.m"]], lty = 1, col = "black", lwd = 2)
 lines(0:nhor, irf.sentmp[["EBP.l"]], lty = 2, col = "black", lwd = 1)
 lines(0:nhor, irf.sentmp[["EBP.u"]], lty = 2, col = "black", lwd = 1)
 abline(h = 0)
+
